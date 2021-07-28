@@ -1,0 +1,125 @@
+body {
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+header {
+    background-color: #35424a;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: lightcoral solid;
+    color:white;
+}
+
+header a{
+    color:whitesmoke;
+    text-decoration:none;
+    font-size:20px;
+}
+    header a:hover {
+        color: lightseagreen;
+        font-weight: bold;
+    }
+    header ul {
+        padding: 0;
+        margin: 0;
+    }
+    header li {
+        display: inline;
+        float: left;
+        padding: 0 20px 0 20px;
+    }
+    header #myDiv h1 {
+        margin: 0;
+    }
+    header span {
+        color: lightcoral;
+    }
+header nav{
+    float:right;
+}
+
+.container {
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#myShow {
+    min-height: 300px;
+    background: url('img/hotel-92.jpg') no-repeat 0 ;
+    text-align: center;
+    color:blanchedalmond;
+    padding-top: 60px;
+    opacity:0.7;
+}
+#myShow h2{
+    margin-top:80px;
+    margin-bottom:30px;
+    font-size:30px;
+    color:burlywood;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    #myShow p {
+        color: burlywood;
+    }
+
+#newsLetter {
+    padding: 10px;
+    color: white;
+    background-color: #35424a;
+}
+#newsLetter h1{
+    float:left;
+  
+}
+    #newsLetter form{
+        float: right;
+        margin-top:30px;
+    }
+#newsLetter input[type="email"] {
+    padding: 4px;
+    height: 20px;
+    width: 250px;
+}
+.myButton {
+    height: 40px;
+    background: #008080;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+#myBoxes {
+    margin-top: 10px;
+   
+}
+#myBoxes .myBox {
+    padding:12px;
+    float:left;
+    width:30%;
+  text-align:center;
+}
+    #myBoxes .myBox img{
+        width: 150px;
+    }
+
+
+article#myArticle{
+    width:60%;
+    float:left;
+}
+
+aside#myAside{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 60px;
+   background-color:lightgray;
+}
