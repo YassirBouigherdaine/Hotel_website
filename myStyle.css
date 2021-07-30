@@ -33,7 +33,7 @@ header a{
     header #myDiv h1 {
         margin: 0;
     }
-    header #mySpan{
+    header #mySpan {
         color: lightcoral;
     }
     header nav {
@@ -92,7 +92,7 @@ header a{
     margin-top: 10px;
    
 }
-#myBoxes .myBox {
+.myBox {
     padding:12px;
     float:left;
     width:30%;
@@ -139,9 +139,12 @@ footer {
     padding: 60px;
    background-color:lightgray;
 }
+    footer img {
+        border-radius: 50%;
+    }
 
 @media(max-width: 768px){
-    header #myDiv, header nav,  #myBoxes .myBox,
+    header #myDiv, header nav,  .myBox,
     #main, #newsLetter h1, aside#myAside, article#main,
     aside#myAside, aside#myAside1{
         

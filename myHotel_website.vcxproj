@@ -145,6 +145,7 @@
     <None Include="index.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="myScript.js" />
     <None Include="myStyle.css" />
     <None Include="services.htm">
       <DeploymentContent>true</DeploymentContent>

@@ -9,6 +9,7 @@
     <meta name="author" content="Yassir Bouigherdaine">
     <title>Hotel_website</title>
     <link rel="stylesheet" type="text/css" href="myStyle.css" />
+    <script type="text/javascript" src="myScript.js"></script>
 </head>
 
 <body>
@@ -20,8 +21,8 @@
             <nav>
                 <ul>
                     <li> <a href="index.htm"> <span id="mySpan">HOME</span></a></li>
-                    <li> <a href="services.htm"> FACILITIES & SERVICES</a></li>
-                    <li> <a href="about.htm"> ABOUT US</a></li>
+                    <li> <a href="services.htm"> SERVICES</a></li>
+                    <li> <a href="about.htm"> ABOUT</a></li>
                 </ul>
             </nav>
         </div>
@@ -36,8 +37,8 @@
     <section id="newsLetter">
         <div class="container">
             <h1>Subscribe</h1>
-            <form>
-                <input type="email" placeholder="Enter you email" />
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <input type="email" name="Email" placeholder="Enter you email" />
                 <button class="myButton" type="submit">Submit</button>
             </form>
         </div>
@@ -46,17 +47,20 @@
     <section id="myBoxes">
         <div class="container">
             <div class="myBox">
-                <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\bed-hotel.jpg" />
+                <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\bed-hotel.jpg" 
+                     onmouseover="mOver(this)" onmouseout="mOut(this)"/>
                 <h3>Rooms</h3>
                 <p>Comfortable rooms and equipped with the necessary items</p>
             </div>
             <div class="myBox">
-                <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\restaurant-icon.jpg" />
+                <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\restaurant-icon.jpg" 
+                     onmouseover="mOver(this)" onmouseout="mOut(this)"/>
                 <h3>Restaurant</h3>
                 <p>Guests receive their meal the way they ordered it every time</p>
             </div>
             <div class="myBox">
-                <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\swimming-icon.jpg" />
+                <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\swimming-icon.jpg" 
+                     onmouseover="mOver(this)" onmouseout="mOut(this)"/>
                 <h3>Swiming Pool</h3>
                 <p>swimming pool designs to help inspire the summer days ahead</p>
             </div>
@@ -64,12 +68,25 @@
     </section>
 
     <footer>
-        <h3> LET'S GET IN TOUCH</h3>
-        <p> Email: Hotelo@gmail.com</p>
-        <p> Tel : 95 (61) 3461137/ 42 / 43, 95 (9) 3513</p>
-        <p>Fax : 95 (61) 3461144</p>
+        <h2> LET'S GET IN TOUCH</h2>
+        <br />
+        <div class="myBox">
+            <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\black-envelope.jpg" />
+            <p><b> Email:</b> Hotelo@gmail.com</p>
+        </div>
+        <div class="myBox">
+            <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\phone-icon.jpg" />
+            <p><b> Tel :</b> 95 (61) 3461137/ 42 / 43, 95 (9) 3513</p>
+        </div>
+        <div class="myBox">
+            <img src="C:\Users\asus\source\repos\myHotel_website\myHotel_website\img\fax-symbol.jpg" />
+            <p><b>Fax :</b> 95 (61) 3461144</p>
+        </div>
+
         <br />
         <br />
+        <br />
+
         <p>Copyright &copy; 2021 HOTELLO Hotel Group</p>
     </footer>
 </body>

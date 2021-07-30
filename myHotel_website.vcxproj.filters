@@ -27,5 +27,8 @@
     <None Include="about.htm">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="myScript.js">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
